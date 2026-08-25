@@ -5,7 +5,11 @@
 
     abstract public void dimension();
     abstract public void compare();
-    abstract public void  display();
+    public void  display(){
+
+        System.out.println("The Area is :  "+area);
+
+    };
 
 }
 class Rectangle extends Shaper{
@@ -27,10 +31,7 @@ class Rectangle extends Shaper{
     
 
     }
-    public void display(){
-
-        System.out.println( "Area of Rectangle : " +area);
-    }
+    
 
 }
 class Square extends Shaper{
@@ -51,10 +52,7 @@ class Square extends Shaper{
     
 
     }
-    public void display(){
-
-        System.out.println( "Area of Square :" +area);
-    }
+    
 
 }
 class Circle extends Shaper{
@@ -75,10 +73,7 @@ class Circle extends Shaper{
     
   
     }
-    public void display(){
-
-        System.out.println( "Area of Circle : " +area);
-    }
+    
 
 }
 class Poly{
