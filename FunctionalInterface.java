@@ -11,7 +11,7 @@ public class FunctionalInterface {
     A obj  = (i) -> i*i;
 
    
-    obj.execution(7);
+    System.out.println("Execution result:" + obj.execution(7));
     
  }
 }
