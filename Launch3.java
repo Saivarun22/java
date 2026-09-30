@@ -1,7 +1,7 @@
 import java.util.*;
 class Beta1{
 
-    public void alpha() {
+    public void alpha() throws ArithmeticException {
         System.out.println("Welcome to my App");
         try{
         Scanner sc=new Scanner(System.in);
